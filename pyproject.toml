@@ -9,7 +9,7 @@ packages = [{include = "flc_data_jobs"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 
-[tool.poetry.group.dev.dependencies]
+[tool.poetry.dev-dependencies]
 pyment = "^0.3.3"
 flake8 = "3.9.2"
 pre-commit = "2.17.0"
