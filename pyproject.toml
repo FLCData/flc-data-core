@@ -11,8 +11,6 @@ python = "^3.8"
 
 [tool.poetry.group.dev.dependencies]
 pyment = "^0.3.3"
-
-[tool.poetry.dev-dependencies]
 flake8 = "3.9.2"
 pre-commit = "2.17.0"
 
