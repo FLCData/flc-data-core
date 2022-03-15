@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flc-data-core"
+version = "0.1.0"
+description = ""
+authors = ["FabioCaffarello <fabio.caffarello@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flc_data_core"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^4.0.1"
+pre-commit = "^2.17.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
