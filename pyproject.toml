@@ -4,14 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["FabioCaffarello <fabio.caffarello@gmail.com>"]
 readme = "README.md"
-packages = [{include = "flc_data_core"}]
+packages = [{include = "flc_data_jobs"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 
-[tool.poetry.group.dev.dependencies]
-flake8 = "^4.0.1"
-pre-commit = "^2.17.0"
+[tool.poetry.dev-dependencies]
+pyment = "^0.3.3"
+flake8 = "3.9.2"
+pre-commit = "2.17.0"
 
 [build-system]
 requires = ["poetry-core"]
